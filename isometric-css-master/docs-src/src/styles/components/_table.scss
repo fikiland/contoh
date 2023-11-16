@@ -1,0 +1,42 @@
+.table {
+    border: 1px solid $gray-dark;
+    border-collapse: collapse;
+    color: $white;
+    line-height: 1.5;
+    table-layout: fixed;
+    text-align: left;
+
+    th {
+        background-color: $light;
+        color: $dark;
+    }
+
+    th,
+    td {
+        border-bottom: 1px solid $gray-dark;
+
+        &:not(.no-padding) {
+            padding: 0.75rem; 
+        }
+        
+        &.no-padding {
+            pre {
+                margin: 0 !important;
+            }
+        }
+
+        &.no-border {
+            border-bottom: none;
+        }
+
+        &.padding-big {
+            padding: 0.75rem 0.75rem 1.75rem;
+        }
+    }
+
+    tbody {
+        tr:nth-child(odd) {
+            background-color: $gray-dark;
+        }
+    }
+}

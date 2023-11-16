@@ -1,0 +1,188 @@
+.demo-wrapper {
+    background: $white;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    transition-delay: 0.35s; 
+
+    &[data-ready="true"] {
+        opacity: 1;
+    }
+
+}
+
+.world {
+    height: 485px;
+    margin: 0 auto;
+    position: relative;
+    transform-origin: top left;
+    width: 780px;
+}
+
+.coords {
+    left: 50%;
+    position: absolute;
+    top: 20px;
+}
+
+.dark {
+    filter: brightness(70%);
+}
+
+.darker {
+    filter: brightness(50%);
+}
+
+.grass {
+    background-color: #517211;
+    height: 450px;
+    width: 450px;
+}
+
+.houses-front {
+    height: 139px;
+    width: 150px;
+}
+
+.houses-side {
+    height: 180px;
+    width: 361px;
+}
+
+.houses-top {
+    height: 361px;
+    width: 150px;
+}
+
+.houses-roof {
+    height: 55px;
+    width: 150px;
+}
+
+.balcony-side {
+    height: 15px;
+    width: 17px;
+}
+
+.balcony-front {
+    height: 15px;
+    width: 5px;
+}
+
+.big-balcony-side {
+    height: 15px;
+    width: 8px;
+}
+
+.big-balcony-front {
+    height: 15px;
+    width: 47px;
+}
+
+.big-balcony-bottom {
+    background-color: #CCC;
+    height: 8px;
+    width: 46px;
+}
+
+.floor-top {
+    height: 450px;
+    width: 230px;
+}
+
+.floor-front {
+    background-color: #7e7d73;
+    height: 10px;
+    width: 230px;
+}
+
+.floor-side {
+    height: 10px;
+    width: 450px;
+}
+
+.fence-pole-side {
+    background-color: $white;
+    height: 26px;
+    width: 2px;
+}
+
+.fence-pole-top {
+    background-color: $white;
+    height: 2px;
+    width: 2px;
+}
+
+.fence-side {
+    background-color: #EEE;
+    height: 83px;
+    width: 2px;
+}
+
+.fence-front {
+    background-color: #EEE;
+    height: 2px;
+    width: 103px;
+}
+
+.logo-front {
+    height: 30px;
+    width: 300px;
+}
+
+.logo-top {
+    height: 300px;
+    width: 6px;
+}
+
+.logo-top-middle {
+    height: 282px;
+    width: 6px;
+}
+
+.logo-top-bottom {
+    height: 282px;
+    width: 6px;
+}
+
+.logo-letter-front-blue {
+    background-color: #bad0e4;
+}
+
+.logo-letter-front-red {
+    background-color: #c48986;
+}
+
+.logo-letter-front-yellow {
+    background-color: #f7dfbc;
+}
+
+.logo-letter-full-front {
+    height: 30px;
+    width: 6px;
+}
+
+.logo-letter-large-front {
+    height: 23.5px;
+    width: 6px;
+}
+
+.logo-letter-half-front {
+    height: 18px;
+    width: 6px;
+}
+
+.logo-letter-short-front {
+    height: 12px;
+    width: 6px;
+}
+
+.logo-letter-square-front {
+    height: 6px;
+    width: 6px;
+}
+
+.logo-letter-r-top-middle {
+    background-color: #d4eef5;
+    height: 3px;
+    width: 6px;
+}

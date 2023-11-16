@@ -1,0 +1,32 @@
+isometric
+
+isometric city- css
+https://codepen.io/alchemist107/pen/LYGdzjL
+
+baris special css nya
+-webkit-transform: rotateX(60deg) rotateZ(-45deg) scale(1.2);
+          transform: rotateX(60deg) rotateZ(-45deg) scale(1.2);
+		  
+		  
+How to Create an Isometric Layout With CSS 3D Transforms
+https://webdesign.tutsplus.com/create-an-isometric-layout-with-3d-transforms--cms-27134t
+
+demos isometric drawing
+https://live.yworks.com/demos/showcase/isometricdrawing/
+
+
+isometric-css
+https://elchininet.github.io/isometric-css
+https://github.com/elchininet/isometric-css
+
+
+contoh kayak minecraft
+https://elchininet.github.io/isometric-css/code-example
+
+
+https://alistapart.com/article/the-z-axis-designing-for-the-future/
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+https://stackoverflow.com/questions/69449521/display-isometric-tiles-correctly-with-html-and-css
